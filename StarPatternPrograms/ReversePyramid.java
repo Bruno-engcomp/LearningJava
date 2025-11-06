@@ -1,7 +1,7 @@
-public class Pyramid {
+public class ReversePyramid {
     public static void main(String[] args) {
         int n = 5;
-        for(int i = 1; i <= n; i++){
+        for (int i = 5; i >= 0; i--){
             for(int j = i; j <= n; j++){
                 System.out.print(" ");
             }
@@ -10,6 +10,5 @@ public class Pyramid {
             }
             System.out.println();
         }
-
     }
 }
